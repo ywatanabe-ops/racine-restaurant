@@ -59,8 +59,8 @@ body.cursor-on .cursor,
 body.cursor-on .cursor-dot { opacity: 1; }
 
 .reveal {
-  opacity: 0;
-  transform: translateY(40px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
 }
 
